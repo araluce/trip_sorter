@@ -1,5 +1,5 @@
 module BoardingCard
-  class AirportBus < Base
+  class BusAirport < Base
 
     def initialize(id, origin, destination, seat)
       super(id, origin, destination, seat)

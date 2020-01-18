@@ -1,7 +1,7 @@
 module Baggage
-  class Automatic < Base
+  class Transfer < Base
 
-    def initialize()
+    def initialize
       super(nil)
     end
 

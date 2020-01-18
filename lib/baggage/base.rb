@@ -10,7 +10,7 @@ module Baggage
     def to_s
       return '' unless counter
 
-      "Baggage drop at ticket counter #{counter}"
+      "Baggage drop at ticket counter #{counter}."
     end
 
   end

@@ -12,7 +12,7 @@ describe Baggage::Base do
     it 'should show the baggage drop counter' do
       baggage =  model.new('344')
 
-      expect(baggage.to_s).to eq('Baggage drop at ticket counter 344')
+      expect(baggage.to_s).to eq('Baggage drop at ticket counter 344.')
     end
 
     it 'should show nothing' do

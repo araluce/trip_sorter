@@ -1,10 +1,10 @@
 require 'spec_helper'
-require 'boarding_card/airport_bus'
+require 'boarding_card/bus_airport'
 
-describe BoardingCard::AirportBus do
+describe BoardingCard::BusAirport do
 
   def model
-    BoardingCard::AirportBus
+    BoardingCard::BusAirport
   end
 
   describe 'to_s' do
