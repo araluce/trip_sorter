@@ -15,7 +15,7 @@ module BoardingCard
     end
 
     def seat_to_s
-      return 'No  seat  assignment' unless seat
+      return 'No seat assignment' unless seat
 
       "Sit in seat #{seat}"
     end

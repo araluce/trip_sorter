@@ -20,7 +20,7 @@ describe BoardingCard::Base do
     it 'should show a free seat number' do
       boarding_card = BoardingCard::Base.new('78A', 'Madrid', 'Barcelona', nil)
 
-      expect(boarding_card.seat_to_s).to eq('No  seat  assignment')
+      expect(boarding_card.seat_to_s).to eq('No seat assignment')
     end
   end
 
