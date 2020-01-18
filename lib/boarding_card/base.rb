@@ -1,7 +1,7 @@
 module BoardingCard
   class Base
 
-    attr_reader :id, :origin, :destination, :seat
+    attr_reader :id, :origin, :destination, :seat, :baggage
 
     def initialize(id, origin, destination, seat)
       @id           = id
