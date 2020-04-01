@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/araluce/trip_sorter.svg?branch=master)](https://travis-ci.org/araluce/trip_sorter)
 
 # Trip  sorter
 *Maximum  amount  of  time  allowed:  2  hours*
